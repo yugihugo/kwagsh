@@ -16,8 +16,13 @@ sudo git clone https://github.com/kwash-dev/kwagsh.git
 cd kwagsh sudo mkdir build && cd build && sudo mkdir release && cd release sudo CMAKE_BUILD_TYPE=Release ../.. && sudo make
 ```
 # After built is completed run the daemon
-sudo ./kwagshd and allow it to sync, once sync is completed open another terminal and run simple wallet sudo ./simplewallet
-
+```
+sudo ./kwagshd 
+```
+and allow it to sync, once sync is completed open another terminal and run simple wallet 
+```
+sudo ./simplewallet
+```
 # Start Mining
 You can either Mine in Pool or solo mining
 
