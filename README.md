@@ -8,7 +8,10 @@ Compiling Kwagsh from Source
 Follow the Kwagsh build instructions
 
 ## Kwagsh Build Instructions
-Download the project from github sudo git clone https://github.com/kwash-dev/kwagsh.git 
+Download the project from github 
+```
+sudo git clone https://github.com/kwash-dev/kwagsh.git 
+```
 ```
 cd kwagsh sudo mkdir build && cd build && sudo mkdir release && cd release sudo CMAKE_BUILD_TYPE=Release ../.. && sudo make
 ```
